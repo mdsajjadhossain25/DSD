@@ -13,7 +13,7 @@ or(cout, y, z);
 
 endmodule
 
-module 4_bit_adder_subtractor(sum, cout, a,b,m);
+module bit_adder_subtractor(sum, cout, a,b,m);
 
 input [3:0]a, b;
 input m;
@@ -35,6 +35,5 @@ FA fa2(sum[2], c3, a[2], r, c2);
 FA fa3(sum[3], cout, a[3], s, c3);
 
 endmodule
-
 
 
